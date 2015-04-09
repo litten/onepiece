@@ -1,0 +1,57 @@
+{
+  "name": "onepiece",
+  "version": "0.0.9",
+  "description": "onepiece comic downloader",
+  "main": "app.js",
+  "keywords": [
+    "onepiece",
+    "comic",
+    "spider",
+    "download"
+  ],
+  "author": {
+    "name": "litten"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "*",
+    "term-list": "*",
+    "eval": "*",
+    "request": "*",
+    "mkdirp": "*"
+  },
+  "bin": {
+    "onepiece": "./bin/app.js"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/litten/onepiece.git"
+  },
+  "bugs": {
+    "url": "https://github.com/litten/onepiece/issues"
+  },
+  "homepage": "https://github.com/litten/onepiece",
+  "_id": "onepiece@0.0.9",
+  "scripts": {},
+  "_shasum": "57bc82c4eb363fb73cc7c33ec87b320919ec40ef",
+  "_from": "onepiece@*",
+  "_npmVersion": "2.5.1",
+  "_nodeVersion": "0.12.0",
+  "_npmUser": {
+    "name": "litten",
+    "email": "tengfeiok@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "litten",
+      "email": "tengfeiok@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "57bc82c4eb363fb73cc7c33ec87b320919ec40ef",
+    "tarball": "http://registry.npmjs.org/onepiece/-/onepiece-0.0.9.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/onepiece/-/onepiece-0.0.9.tgz"
+}
