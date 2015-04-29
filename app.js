@@ -86,8 +86,9 @@ var dl = (function(){
 
 				var text = buffer.toString();
 				text = text.replace(/(\r\n|\r|\n)/g,'\n');
+
 				var $ = cheerio.load(text);
-				var str = $("script").eq(6).html();
+				var str = $("script[type='text/javascript']").eq(1).html();
 				var pattern =/[\'](.*?)[\']/gi;
 				str = str.match(pattern)[0];
 				str = str.substring(1,str.length-1);
@@ -165,8 +166,6 @@ var chapter = (function(){
 					      	showList(aList);
 					      }else{
 					      	dl.init(item);
-					      	//list.stop();
-					      	//console.log('download id=%s', item);
 					      	console.log('下载正常，请查看当前目录');
 					      }
 					      
